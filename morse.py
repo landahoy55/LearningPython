@@ -13,6 +13,7 @@ def encode(message):
 
     # `morse` is a list which will eventually contain the 
     # strings for each morse code letter in the message.
+    # a change
     
     if "!" in message: 
             raise ValueError(f"'!' is not a valid string :(")
